@@ -1,0 +1,6 @@
+# Enable URL rewriting
+RewriteEngine On
+
+#Remove .html from the URL
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/]+)/?$ $1.html [L]
