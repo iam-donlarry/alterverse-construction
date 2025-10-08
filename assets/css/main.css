@@ -1,4 +1,12 @@
 /* Fonts */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2') format('woff2');
+}
+
 :root {
   --default-font: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   --heading-font: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
