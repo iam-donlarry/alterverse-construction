@@ -729,7 +729,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 80vh;
+  min-height: 60vh;
   position: relative;
   padding: 0;
   display: flex;
@@ -914,7 +914,7 @@ section,
 }
 
 .get-started .content p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .get-started .php-email-form {

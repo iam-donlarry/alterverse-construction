@@ -159,3 +159,6 @@
   new PureCounter();
 
 })();
+
+ // Update the year automatically
+ document.getElementById('current-year').textContent = new Date().getFullYear();
